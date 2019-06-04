@@ -1,0 +1,53 @@
+.App-Container {
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 5rem 0;
+    width: 480px;
+}
+
+.App-Menu {
+    margin-bottom: 10rem;
+}
+
+.App-Menu-List {
+    display: flex;
+}
+
+.App-Menu-Item {
+    list-style: none;
+}
+
+.App-Menu-Link {
+    color: #ffffff;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+.App-Table {
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.App-Table-Header {
+    background: #f2f2f2;
+    color: #333;
+}
+
+.App-Loading {
+    animation: loading 2s linear infinite;
+    border-radius: 100%;
+    border: 3px solid #f2f2f2;
+    border-left-color: #808080;
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
